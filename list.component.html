@@ -1,0 +1,7 @@
+<h2>List with information about users:</h2>
+
+<app-list-item [listItem]="usersList"></app-list-item>
+
+<button (click)="remove()">Delete</button>
+
+<input (keyup)="numberLine($event)" placeholder="Enter the line number">
